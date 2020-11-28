@@ -230,8 +230,8 @@ def convert_action(boxes, action):
         return f'{box}[\'{folder}\']'
 
     functions = {
-        'Delete': ('delete_mesages()', noop),
-        'Move to folder': ('move_to({})', format_folder),
+        'Delete': ('delete_messages()', noop),
+        'Move to folder': ('move_messages({})', format_folder),
         'Mark read': ('mark_seen()', noop),
     }
 
