@@ -24,6 +24,7 @@ The script tries to produce a decent format, but you may want to modify it by ha
 
 # Extending
 
-I would be glad to help implementing missing conditions and actions from Thunderbird.
-Please submit an issue on Github.
-If you happen to have implemented some missing parts already, I would be glad to merge it into this repository.
+I am open to suggestions and contributions, please discuss them on the [issue tracker](https://github.com/Lattay/thunderbird_to_imapfilter/issues).
+
+New conditions can be implemented in `parse_condition`.
+New actions can be implemented in `render_action`.
