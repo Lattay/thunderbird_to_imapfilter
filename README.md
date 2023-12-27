@@ -9,7 +9,7 @@ Use at your own risk.
 
 # How to use
 
-This script only depends on python, (>= 3.5)
+This script only depends on python, (>= 3.7)
 
 1. Localize your thunderbird configuration.
 On linux, it is commonly found in one of the directory under `~/.thunderbird`.
